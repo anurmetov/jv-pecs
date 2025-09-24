@@ -19,4 +19,9 @@ public abstract class Machine implements Workable {
     public void setColor(String color) {
         this.color = color;
     }
+
+    @Override
+    public void doWork() {
+        System.out.println("Machine started to work");
+    }
 }
